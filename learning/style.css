@@ -1,0 +1,39 @@
+/* body  */
+
+body {
+    color: rgb(199, 17, 17);
+    background-color: aqua;
+    font-size: 20px;
+}
+
+h1 {
+    color: darkgreen;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+a {
+    text-decoration: line-through;
+}
+
+p {
+    text-align: center;
+}

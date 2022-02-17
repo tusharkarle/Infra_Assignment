@@ -1,0 +1,52 @@
+/* navigatuion */
+
+#navbar {
+    flex-direction: column;
+}
+
+
+/* home */
+
+#home {
+    height: 280px;
+}
+
+#home::before {
+    height: 400px;
+}
+
+
+/* services */
+
+#services {
+    flex-direction: column;
+}
+
+#services .box img {
+    height: 120px;
+}
+
+
+/* clients  */
+
+#client-section {
+    height: auto;
+}
+
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
+    height: 70px;
+}
+
+
+/*contact us */
+
+
+/* utility class */
+
+.center {
+    text-align: center;
+}

@@ -1,0 +1,225 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        /* box-sizing: border-box; */
+                    }
+                    
+                    html {
+                        scroll-behavior: smooth;
+                    }
+                    /* css variables */
+                    /* starts here */
+                    
+                    #navbar {
+                        display: flex;
+                        align-items: center;
+                        position: sticky;
+                        top: 0;
+                    }
+                    /* logo and image */
+                    
+                    #logo {
+                        margin: 1px 33px;
+                    }
+                    
+                    #logo img {
+                        height: 69px;
+                        margin: 7px 18px;
+                    }
+                    /* list */
+                    
+                    #navbar ul {
+                        display: flex;
+                        font-size: 1.3rem;
+                    }
+                    
+                    #navbar::before {
+                        content: "";
+                        background-color: black;
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        z-index: -1;
+                        opacity: 0.4;
+                    }
+                    
+                    #navbar ul li {
+                        list-style: none;
+                        font-size: 1.3rem;
+                    }
+                    
+                    #navbar ul li a {
+                        color: white;
+                        display: block;
+                        padding: 3px 20px;
+                        border-radius: 20px;
+                        text-decoration: none;
+                    }
+                    
+                    #navbar ul li a:hover {
+                        background-color: white;
+                        color: black;
+                    }
+                    /* home section */
+                    
+                    #home {
+                        display: flex;
+                        flex-direction: column;
+                        padding-top: 2px;
+                        /* padding: 2px 0px; */
+                        justify-content: center;
+                        align-items: center;
+                        height: 566px;
+                        /* border: 2px solid red; */
+                    }
+                    
+                    #home::before {
+                        content: "";
+                        position: absolute;
+                        background: url(../bg1.jpg) no-repeat center center/cover;
+                        width: 100%;
+                        height: 650px;
+                        z-index: -1;
+                        opacity: 0.7;
+                        top: 0;
+                        left: 0;
+                    }
+                    
+                    #home h1 {
+                        color: white;
+                        text-align: center;
+                        font-size: 2rem;
+                        text-align: center;
+                    }
+                    
+                    #home p {
+                        color: white;
+                        font-size: 1.3rem;
+                        text-align: center;
+                    }
+                    /* services container */
+                    
+                    #services {
+                        margin: 34px;
+                        display: flex;
+                    }
+                    
+                    #services .box {
+                        border: 2px solid red;
+                        border-radius: 50px;
+                        margin: 11px;
+                        background-color: rgb(255, 255, 255);
+                    }
+                    
+                    #services .box img {
+                        height: 150px;
+                        margin: auto;
+                        display: block;
+                    }
+                    
+                    #services {}
+                    
+                    #services {}
+                    /* Clients section */
+                    
+                    #client-section {
+                        border: 2px solid red;
+                        margin: 10px;
+                        position: relative;
+                        height: 227px;
+                    }
+                    
+                    #client-section::before {
+                        content: "";
+                        position: absolute;
+                        background: url("../bg.jpg");
+                        width: 100%;
+                        height: 100%;
+                        z-index: -1;
+                        opacity: 0.68;
+                    }
+                    
+                    .client-items {
+                        padding: 20px;
+                    }
+                    
+                    .client-items img {
+                        height: 100px;
+                    }
+                    
+                    #clients {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    /* contact section */
+                    
+                    #contact {
+                        border: 2px solid black;
+                        position: relative;
+                    }
+                    
+                    #contact::before {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        z-index: -1;
+                        opacity: 0.7;
+                        background: url("../contact.jpg") no-repeat center center/cover;
+                    }
+                    
+                    #contact-box {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        padding-bottom: 34px;
+                    }
+                    
+                    #contact-box input {
+                        padding: 10px;
+                        margin: 5px;
+                        width: 100%;
+                        font-size: 1.1rem;
+                        border: 10;
+                    }
+                    
+                    #contact-box form {
+                        width: 40%;
+                    }
+                    
+                    #contact-box label {
+                        font-size: 1.5rem;
+                    }
+                    /* footer */
+                    
+                    footer {
+                        background-color: black;
+                        color: white;
+                        padding: 13px 14px;
+                    }
+                    /* utility classes */
+                    
+                    .h-primary {
+                        padding: 20px;
+                        font-size: 3rem;
+                    }
+                    
+                    .h-secondary {
+                        font-size: 2rem;
+                        padding: 3px 4px;
+                    }
+                    
+                    .btn {
+                        padding: 8px 14px;
+                        border: 2px solid white;
+                        background-color: brown;
+                        color: white;
+                        margin: 17px;
+                        font-size: 1.5rem;
+                    }
+                    
+                    .center {
+                        text-align: center;
+                    }

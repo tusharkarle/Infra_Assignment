@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+</head>
+<style>
+    .container {
+        height: 544px;
+        width: 100%;
+        border: 2px solid black;
+        /* intialize conatiner as flex */
+        display: flex;
+        /* properties */
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .item {
+        width: 100px;
+        height: 50px;
+        background-color: aqua;
+        border: 2px solid red;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    #item-1 {
+        /* order: 2; */
+        /* flex-shrink: 50; */
+        flex-basis: 300px;
+    }
+    
+    #item-2 {
+        /* order: 40; */
+        /* flex-shrink: 1000; */
+    }
+    
+    #item-3 {
+        /* flex: 2 2 100px; */
+        align-items: center;
+    }
+</style>
+
+<body>
+    <h1>This is the flex box learing</h1>
+
+
+    <div class="container">
+        <div class="item" id="item-1">First box dx</div>
+        <div class="item" id="item-2">Second box</div>
+        <div class="item" id="item-3">third box</div>
+        <div class="item" id="item-4">fourth box</div>
+        <div class="item" id="item-5">fith box</div>
+        <div class="item" id="item-6">sixth box</div>
+    </div>
+</body>
+
+</html>

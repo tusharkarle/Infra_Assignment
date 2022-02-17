@@ -1,0 +1,6 @@
+[submodule "Assigment_2"]
+	path = Assigment_2
+	url = https://github.com/tusharkarle/Internship-Learning.git
+[submodule "Assigment_2_Rest_Api"]
+	path = Assigment_2_Rest_Api
+	url = https://github.com/tusharkarle/Internship-Learning.git

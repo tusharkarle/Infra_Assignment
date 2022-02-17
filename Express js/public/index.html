@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <title>Assignment_1</title>
+</head>
+
+<body>
+    <!-- Header Image -->
+
+    <header>
+        <div class="headerimg">
+            <img src="img/uae.png" alt="header_photo" />
+        </div>
+    </header>
+
+    <section id="main-content">
+        <div class="content-columns">
+            <div id="column1">
+                <div id="column1_row1">
+                    <h1>UAE-Online</h1>
+
+                    <div id="img_text">
+                        <img src="img/price.png" alt="price">
+                        <p> $120</p>
+                        <img src="img/vector.png" alt="vector">
+                        <p>Type goes here</p>
+
+                    </div>
+
+                    <p>
+                        <strong>Residents of more than 180 countries can apply for a visa
+                through the app. Nationals of more than 30 countries are
+                eligible for a free visa on arrival in Dubai, and do not need
+                apply in advance</strong
+              >
+            </p>
+          </div>
+
+          <hr >
+          <div id="column1_row2">
+            <h2>How to apply and pay</h2>
+            <p>
+              Applications can be made a maximun of 58 days of minimum of 24
+              working hours price to travel . Emireates and VFS recommend you
+              can apply as far in adavace as possible .
+            </p>
+            <br />
+            <p>
+              Payment can be made with a a visa/Master card credit or debit card
+              only
+            </p>
+          </div>
+        </div>
+
+       
+
+        <div id="column2">
+          <div id="column2_row1">
+            <h2>Calculate fees</h2>
+
+            <strong>
+              <div class="calculate_form">
+                <form>
+                  <div>
+                    <label for="Traveling form"> Traveling form</label>
+                    <br />
+                    <select name="Country" id="select_country">
+                      <option value="india">India</option>
+                      <option value="America">America</option>
+                      <option value="UK">UK</option>
+                      <option value="Cannada">Cannada</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label for="Visa Type"> Visa Type</label>
+                    <br />
+                    <select name="Visa" id="visa">
+                      <option value="Tourist">Tourist</option>
+                      <option value="Visa on arrival">Visa on arrival</option>
+                      <option value="Bussiness">Bussiness</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="Applying For"> Applying For</label>
+                    <select name="no_of_days" id="no_of_days">
+                      <option value="1_day">1 Day</option>
+                      <option value="7_days">7 Days</option>
+                      <option value="1_month">1 Month</option>
+                      <option value="6_month">6 Months</option>
+                    </select>
+                  </div>
+                  <div>
+                      <br>
+                      <input type="button" value="-" style="width: 10%;">
+                        <input type="number" name="no" id="input_no" placeholder="1" style="width: 20%;">
+                        <input type="button" value="+" style="width: 10%;"> 
+                  </div>
+                  <button type="submit">Calculate</button>
+                </form>
+              </div>
+            </strong>
+                </div>
+
+                <div id="column2_row2">
+                    <div class="calculate_column">
+                        <p>Processing Fees</p>
+                        <p>INR 200</p>
+                    </div>
+
+                    <div class="calculate_column">
+                        <p>Fees</p>
+                        <p>INR 400</p>
+                    </div>
+
+                    <hr />
+
+                    <div class="calculate_column">
+                        <p>Total</p>
+                        <p>INR 600</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
